@@ -2,7 +2,7 @@
 const CANVAS_SIZE = 400;
 const GRID_SIZE = 20;
 const TILE_COUNT = CANVAS_SIZE / GRID_SIZE;
-const GAME_SPEED = 100; // ms
+const GAME_SPEED = 500; // ms
 const MIN_SWIPE_DISTANCE = 40; // Minimum swipe distance in pixels
 
 // Colors
@@ -420,3 +420,4 @@ function handleSwipe(sx, sy, ex, ey) {
         }
     }
 }
+
